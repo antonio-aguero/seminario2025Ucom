@@ -2,13 +2,13 @@
 
 ## 📋 Índice
 1. [Introducción](#-introducción)
-2. [Patrones de Diseño Implementados](#patrones-de-diseño-implementados)
-3. [Arquitectura del Proyecto](#arquitectura-del-proyecto)
-4. [Análisis Detallado de Clases](#análisis-detallado-de-clases)
-5. [Flujo de Ejecución](#flujo-de-ejecución)
-6. [Beneficios de los Patrones](#beneficios-de-los-patrones)
-7. [Ejemplos de Uso](#ejemplos-de-uso)
-8. [Extensibilidad](#extensibilidad)
+2. [Patrones de Diseño Implementados](#-patrones-de-diseño-implementados)
+3. [Arquitectura del Proyecto](#-arquitectura-del-proyecto)
+4. [Análisis Detallado de Clases](#-análisis-detallado-de-clases)
+5. [Flujo de Ejecución](#-flujo-de-ejecución)
+6. [Beneficios de los Patrones](#-beneficios-de-los-patrones)
+7. [Ejemplos de Uso](#-ejemplos-de-uso)
+8. [Extensibilidad](#-extensibilidad)
 
 ---
 
