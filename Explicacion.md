@@ -22,6 +22,7 @@ Este proyecto implementa un juego **Space Invaders** en Java con el objetivo pri
 
 El juego no solo es funcional y entretenido, sino que sirve como **ejemplo educativo** de cómo los patrones de diseño mejoran la estructura, mantenibilidad y extensibilidad del código.
 
+[Volver](#-índice)
 ---
 
 ## 🔧 Patrones de Diseño Implementados
@@ -71,6 +72,7 @@ public class GameManager {
 - Verificar condiciones de victoria/derrota
 - Coordinar la actualización de todas las entidades
 
+[Volver](#-índice)
 ---
 
 ### 2. 🏭 Patrón Factory - EnemyFactory
@@ -134,6 +136,7 @@ public class EnemyFactory {
 - ✅ **Flexibilidad**: Fácil cambiar tipos de enemigos
 - ✅ **Mantenimiento**: Cambios en un solo lugar
 
+[Volver](#-índice)
 ---
 
 ### 3. 🎯 Patrón Strategy - MovementStrategy
@@ -223,6 +226,7 @@ public class StraightDownMovementStrategy implements MovementStrategy {
 - ✅ **Testeable**: Cada estrategia se puede probar independientemente
 - ✅ **Legible**: Código claro y organizado
 
+[Volver](#-índice)
 ---
 
 ## 🏗️ Arquitectura del Proyecto
@@ -259,7 +263,7 @@ SpaceInvadersGame
         ↓
     Enemy + MovementStrategy (Strategy)
 ```
-
+[Volver](#-índice)
 ---
 
 ## 🔍 Análisis Detallado de Clases
@@ -341,6 +345,7 @@ public abstract class Enemy extends GameObject {
 - Cada tipo tiene diferentes puntos
 - Actualización basada en estrategia asignada
 
+[Volver](#-índice)
 ---
 
 ## ⚡ Flujo de Ejecución
@@ -391,6 +396,7 @@ Según la tecla:
 └── ESC → System.exit()
 ```
 
+[Volver](#-índice)
 ---
 
 ## 🎁 Beneficios de los Patrones
@@ -449,6 +455,7 @@ public class GameManager {
 | **Legibilidad** | Código mezclado | Responsabilidades claras |
 | **Reutilización** | Copiar y pegar | Composición y herencia |
 
+[Volver](#-índice)
 ---
 
 ## 🎮 Ejemplos de Uso en Tiempo Real
@@ -513,6 +520,7 @@ if (gameManager.getScore() > 1000) {
 
 **Resultado:** Estado consistente accesible desde cualquier clase.
 
+[Volver](#-índice)
 ---
 
 ## 🚀 Extensibilidad
@@ -578,6 +586,7 @@ public PowerUp createPowerUp(String type, int x, int y) {
 powerUp.setMovementStrategy(new StraightDownMovementStrategy(3));
 ```
 
+[Volver](#-índice)
 ---
 
 ## 🎯 Conclusiones
@@ -610,6 +619,7 @@ powerUp.setMovementStrategy(new StraightDownMovementStrategy(3));
 
 Este proyecto demuestra que los **patrones de diseño no son abstracciones académicas**, sino **herramientas prácticas** que mejoran significativamente la calidad del código en proyectos reales.
 
+[Volver](#-índice)
 ---
 
 *¡Disfruta jugando Space Invaders mientras aprendes patrones de diseño!* 🎮✨
