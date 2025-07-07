@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Compilar y Ejecutar Space Invaders",
+			"type": "shell",
+			"command": "javac -d bin -sourcepath src src/spaceinvaders/game/SpaceInvadersGame.java && java -cp bin spaceinvaders.game.SpaceInvadersGame",
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$javac"
+			]
+		}
+	]
+}
