@@ -1,7 +1,7 @@
 # Explicación Completa del Proyecto Space Invaders
 
 ## 📋 Índice
-1. [Introducción](#Introducción)
+1. [Introducción](#-introducción)
 2. [Patrones de Diseño Implementados](#patrones-de-diseño-implementados)
 3. [Arquitectura del Proyecto](#arquitectura-del-proyecto)
 4. [Análisis Detallado de Clases](#análisis-detallado-de-clases)
